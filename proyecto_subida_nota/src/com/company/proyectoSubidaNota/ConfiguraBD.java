@@ -25,19 +25,38 @@ public class ConfiguraBD extends JFrame{
         });
     }
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("ConfiguraBD");
-        frame.setContentPane(new ConfiguraBD().panel1);
-        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
-
     public void conecta() {
-        ConexionDB.setIP(tfIp.getText());
-        ConexionDB.setPuerto(tfPuerto.getText());
-        ConexionDB.setNombreBD(tfNombre.getText());
-        ConexionDB.setUsuario(tfUsuario.getText());
-        ConexionDB.setPassword(tfContra.getText());
+
+        String IP = "127.0.0.1";
+        String puerto = "3336";
+        String nombre = "classicmodels";
+        String usuario = "root";
+        String contra = "123456";
+
+        if (!"".equalsIgnoreCase(tfIp.getText())) {
+            IP = tfIp.getText();
+        }
+
+        if (!"".equalsIgnoreCase(tfPuerto.getText())) {
+            puerto = tfPuerto.getText();
+        }
+
+        if (!"".equalsIgnoreCase(tfNombre.getText())) {
+            nombre = tfNombre.getText();
+        }
+
+        if (!"".equalsIgnoreCase(tfUsuario.getText())) {
+            usuario = tfUsuario.getText();
+        }
+
+        if (!"".equalsIgnoreCase(tfContra.getText())) {
+            contra = tfContra.getText();
+        }
+
+        ConexionDB.setIP(IP);
+        ConexionDB.setPuerto(puerto);
+        ConexionDB.setNombreBD(nombre);
+        ConexionDB.setUsuario(usuario);
+        ConexionDB.setPassword(contra);
     }
 }

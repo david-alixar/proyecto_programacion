@@ -30,13 +30,6 @@ public class CreaOficina extends JFrame{
         });
     }
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("CreaOficina");
-        frame.setContentPane(new CreaOficina().panel1);
-        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
 
     public void crea() {
         Connection connection = null;
@@ -77,7 +70,6 @@ public class CreaOficina extends JFrame{
                 statement2.setString(9, tfTerritorio.getText());
 
 
-                //ResultSet rs2 = statement2.executeQuery();
                 if(statement2.executeUpdate()==1){
                     JOptionPane.showMessageDialog(null,"Se ha añadido correctamenta la oficina con código: " +tfCod.getText()+".");
                 }

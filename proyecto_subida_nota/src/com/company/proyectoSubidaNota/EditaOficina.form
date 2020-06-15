@@ -322,16 +322,6 @@
           <forms defaultalign-horz="false"/>
         </constraints>
       </hspacer>
-      <component id="c2940" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-          <forms/>
-        </constraints>
-        <properties>
-          <foreground color="-524292"/>
-          <text value="Introduzca los datos a cambiar y  deje en blanco los que desee mantener"/>
-        </properties>
-      </component>
       <component id="bf36d" class="javax.swing.JTextField" binding="tfDir1">
         <constraints>
           <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
@@ -342,6 +332,16 @@
         <properties>
           <background color="-13027015"/>
           <foreground color="-5113089"/>
+        </properties>
+      </component>
+      <component id="c2940" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <foreground color="-524292"/>
+          <text value="Introduzca los datos a cambiar y  deje en blanco los que desee mantener"/>
         </properties>
       </component>
     </children>

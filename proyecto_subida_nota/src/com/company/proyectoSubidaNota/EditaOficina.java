@@ -22,14 +22,6 @@ public class EditaOficina extends JFrame {
     private JTextField tfTerritorio;
     private JButton btEdita;
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("EditaOficina");
-        frame.setContentPane(new EditaOficina().panel1);
-        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
-
 
 
     public EditaOficina() {

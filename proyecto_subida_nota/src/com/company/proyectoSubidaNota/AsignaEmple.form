@@ -90,6 +90,7 @@
         <properties>
           <background color="-13027015"/>
           <foreground color="-5113089"/>
+          <horizontalAlignment value="0"/>
           <text value=""/>
         </properties>
       </component>
@@ -119,6 +120,7 @@
         <properties>
           <background color="-13027015"/>
           <foreground color="-5113089"/>
+          <horizontalAlignment value="0"/>
         </properties>
       </component>
       <hspacer id="a8bc4">

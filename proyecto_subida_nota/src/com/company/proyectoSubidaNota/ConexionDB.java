@@ -18,7 +18,6 @@ public class ConexionDB {
             if( con == null ){
                 String driver="com.mysql.cj.jdbc.Driver";
                 Class.forName(driver);
-                //con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3336/classicmodels?user=root&password=123456");
                 con = DriverManager.getConnection("jdbc:mysql://"+IP+":"+puerto+"/"+nombreBD+"?user="+usuario+"&password="+password+"");
             }
         }

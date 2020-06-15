@@ -24,13 +24,6 @@ public class AsignaEmple extends JFrame{
         });
     }
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("AsignaEmple");
-        frame.setContentPane(new AsignaEmple().panel1);
-        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
 
     public void asigna() {
         Connection connection = null;

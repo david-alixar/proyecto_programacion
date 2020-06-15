@@ -24,13 +24,6 @@ public class BorraOficina extends JFrame{
         });
     }
 
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("BorraOficina");
-        frame.setContentPane(new BorraOficina().panel1);
-        frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
 
     public void borra() {
         Connection connection = null;
