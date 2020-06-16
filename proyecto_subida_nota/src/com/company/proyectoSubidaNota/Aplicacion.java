@@ -33,6 +33,7 @@ public class Aplicacion extends JFrame{
                 frame.setContentPane(new ConfiguraBD().panel1);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
+                frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
 
             }
@@ -54,6 +55,7 @@ public class Aplicacion extends JFrame{
                 frame.setContentPane(new CreaOficina().panel1);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
+                frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
             }
         });
@@ -64,6 +66,7 @@ public class Aplicacion extends JFrame{
                 frame.setContentPane(new BorraOficina().panel1);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
+                frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
             }
         });
@@ -74,6 +77,7 @@ public class Aplicacion extends JFrame{
                 frame.setContentPane(new AsignaEmple().panel1);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
+                frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
             }
         });
@@ -84,6 +88,7 @@ public class Aplicacion extends JFrame{
                 frame.setContentPane(new Info().panel1);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
+                frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
             }
         });

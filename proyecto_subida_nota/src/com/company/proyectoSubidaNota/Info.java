@@ -19,7 +19,6 @@ public class Info extends JFrame {
     private JButton btConsulta;
 
     public Info() {
-        setPreferredSize(new Dimension(400,400));
         btConsulta.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
