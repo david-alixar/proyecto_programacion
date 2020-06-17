@@ -13,7 +13,6 @@ public class ConfiguraBD extends JFrame{
     private JTextField tfUsuario;
     private JTextField tfContra;
     private JButton btConfigurar;
-    private JButton btCancelar;
 
     public ConfiguraBD() {
         btConfigurar.addActionListener(new ActionListener() {
