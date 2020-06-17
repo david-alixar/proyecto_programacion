@@ -45,6 +45,7 @@ public class Aplicacion extends JFrame{
                 frame.setContentPane(new EditaOficina().panel1);
                 frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
                 frame.pack();
+                frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
             }
         });
